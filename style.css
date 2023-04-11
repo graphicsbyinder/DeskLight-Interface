@@ -1,0 +1,252 @@
+body, html {
+    height: fixed;
+    /* background: linear-gradient(100deg, rgba(248, 177, 149, 1) 10%, rgba(192, 108, 132, 1) 35%, rgb(61, 78, 156) 120%); */
+    background: rgb(228, 228, 228);
+    background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(219, 219, 219) 100%);
+    scroll-behavior: smooth;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    scroll-behavior: smooth;
+}
+
+#musicStream {
+    margin-top: 13%;
+    margin-bottom: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+#musicStreamDiv {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 13%;
+    margin-bottom: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+
+#clockFrame { 
+    margin-top: 10%;
+    /* margin-bottom: 1%; */
+    border: 1px solid rgba(255, 255, 255, 0.246);
+    border-width: 10px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#currentTime {
+    font-size: 140px;
+}
+
+#siteBadge {
+    text-align: center;
+    /* border: 1px solid rgba(255, 255, 255, 0.246); */
+    border-width: 3px;
+    border-radius: 10px;
+    width: 40%;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(0, 0, 0);
+    /* background: rgb(255, 255, 255); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.048);
+}
+
+#lofiTitle {
+    font-size: 30px;
+    margin-top: 0%;
+    font-weight: bold;
+    color: rgb(61, 61, 61);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+/* #soundPlayers {
+    
+} */
+
+/* #musicButtons th {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#musicButtons td {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+} */
+
+#hr {
+    border-radius: 50px;
+    height: 20px;
+    width: 80em;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#horLine {
+    border-radius: 50px;
+    margin-top: 3px;
+    height: 20px;
+    width: 80em;
+    margin-bottom: 5px;
+    background: rgba(255, 255, 255, 0.281);
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(128, 128, 128, 0); 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+#notePad {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 5%;
+    min-height: 100px;
+}
+
+#notesTag {
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(61, 61, 61);
+}
+
+#textArea {
+    margin-top: 9px;
+    margin-bottom: 3px;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#downloadButton {
+    outline: none;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(107, 107, 107);
+}
+
+/* footer {
+	text-align: center;
+	padding: 30px;
+	width: 100%;
+	height: 80px;
+	background-color: rgba(51, 51, 51, 0.233);
+	color: rgb(0, 0, 0);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  /* } */
+
+
+#footerBanner {
+  text-align: center;
+	padding: 30px;
+	width: 100%;
+	height: 80px;
+	background-color: rgba(51, 51, 51, 0.233);
+	color: rgb(0, 0, 0)
+}
+
+/* .fab fa-youtube {
+  font-size: larger;
+} */
+
+/* All CSS for Pomodoro Timer */
+
+#container{
+    /* border:1px solid #333; */
+    border-radius :20px;
+    width:400px;
+    margin:20px auto;
+    padding:20px;
+    text-align:center;
+    background : rgba(255, 255, 255, 0.239);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  #timer{ 
+    color:rgb(44, 44, 44); 
+    font-size:50px; 
+    margin:10px auto;
+    border : 5px solid rgba(148,187,233,1);
+    border-radius:50%;
+    width:250px;
+    height:235px;
+    overflow:hidden;
+    position:relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor:default;
+  }
+  
+  #time{
+    margin-top:70px;
+    z-index : 1;
+    position:relative;
+  }
+  
+  #filler{
+    background : #ddffcc;
+    height: 0px;
+    width: 200px;
+    position:absolute;
+    bottom:0;
+  }
+  
+  #buttons button { 
+    background:#4da6ff; 
+    border:none; 
+    color:#fff; 
+    cursor:pointer; 
+    padding:5px; 
+    width:90px; 
+    margin:10px auto;
+    font-size:14px;
+    height : 50px;
+    border-radius : 50px;
+  }
+  
+  #buttons button#shortBreak{
+    background : #0c0;
+  }
+  
+  #buttons button#longBreak{
+    background : #080;
+  }
+  
+  #buttons button#stop{
+    background : #f00;
+  }
+
+table.gsc-search-box td {
+    vertical-align: middle;
+    /* padding: 15px; */
+}
+  
